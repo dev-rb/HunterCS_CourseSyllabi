@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HunterCS_CourseSyllabi/static/css/main.f887e6cc.chunk.css",
+    "main.js": "/HunterCS_CourseSyllabi/static/js/main.7f3b1a89.chunk.js",
+    "main.js.map": "/HunterCS_CourseSyllabi/static/js/main.7f3b1a89.chunk.js.map",
+    "runtime-main.js": "/HunterCS_CourseSyllabi/static/js/runtime-main.b61743ec.js",
+    "runtime-main.js.map": "/HunterCS_CourseSyllabi/static/js/runtime-main.b61743ec.js.map",
+    "static/js/2.daaef724.chunk.js": "/HunterCS_CourseSyllabi/static/js/2.daaef724.chunk.js",
+    "static/js/2.daaef724.chunk.js.map": "/HunterCS_CourseSyllabi/static/js/2.daaef724.chunk.js.map",
+    "static/js/3.cee06c9a.chunk.js": "/HunterCS_CourseSyllabi/static/js/3.cee06c9a.chunk.js",
+    "static/js/3.cee06c9a.chunk.js.map": "/HunterCS_CourseSyllabi/static/js/3.cee06c9a.chunk.js.map",
+    "index.html": "/HunterCS_CourseSyllabi/index.html",
+    "static/css/main.f887e6cc.chunk.css.map": "/HunterCS_CourseSyllabi/static/css/main.f887e6cc.chunk.css.map",
+    "static/js/2.daaef724.chunk.js.LICENSE.txt": "/HunterCS_CourseSyllabi/static/js/2.daaef724.chunk.js.LICENSE.txt",
+    "static/media/logo.f13bc8f6.png": "/HunterCS_CourseSyllabi/static/media/logo.f13bc8f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b61743ec.js",
+    "static/js/2.daaef724.chunk.js",
+    "static/css/main.f887e6cc.chunk.css",
+    "static/js/main.7f3b1a89.chunk.js"
+  ]
+}
