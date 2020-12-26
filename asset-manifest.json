@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/HunterCS_CourseSyllabi/static/css/main.f887e6cc.chunk.css",
-    "main.js": "/HunterCS_CourseSyllabi/static/js/main.7f3b1a89.chunk.js",
-    "main.js.map": "/HunterCS_CourseSyllabi/static/js/main.7f3b1a89.chunk.js.map",
-    "runtime-main.js": "/HunterCS_CourseSyllabi/static/js/runtime-main.b61743ec.js",
-    "runtime-main.js.map": "/HunterCS_CourseSyllabi/static/js/runtime-main.b61743ec.js.map",
-    "static/js/2.daaef724.chunk.js": "/HunterCS_CourseSyllabi/static/js/2.daaef724.chunk.js",
-    "static/js/2.daaef724.chunk.js.map": "/HunterCS_CourseSyllabi/static/js/2.daaef724.chunk.js.map",
-    "static/js/3.cee06c9a.chunk.js": "/HunterCS_CourseSyllabi/static/js/3.cee06c9a.chunk.js",
-    "static/js/3.cee06c9a.chunk.js.map": "/HunterCS_CourseSyllabi/static/js/3.cee06c9a.chunk.js.map",
+    "main.css": "/HunterCS_CourseSyllabi/static/css/main.ee8d8dea.chunk.css",
+    "main.js": "/HunterCS_CourseSyllabi/static/js/main.927c1329.chunk.js",
+    "main.js.map": "/HunterCS_CourseSyllabi/static/js/main.927c1329.chunk.js.map",
+    "runtime-main.js": "/HunterCS_CourseSyllabi/static/js/runtime-main.3abe02aa.js",
+    "runtime-main.js.map": "/HunterCS_CourseSyllabi/static/js/runtime-main.3abe02aa.js.map",
+    "static/js/2.329ea3d8.chunk.js": "/HunterCS_CourseSyllabi/static/js/2.329ea3d8.chunk.js",
+    "static/js/2.329ea3d8.chunk.js.map": "/HunterCS_CourseSyllabi/static/js/2.329ea3d8.chunk.js.map",
+    "static/js/3.2acbd806.chunk.js": "/HunterCS_CourseSyllabi/static/js/3.2acbd806.chunk.js",
+    "static/js/3.2acbd806.chunk.js.map": "/HunterCS_CourseSyllabi/static/js/3.2acbd806.chunk.js.map",
     "index.html": "/HunterCS_CourseSyllabi/index.html",
-    "static/css/main.f887e6cc.chunk.css.map": "/HunterCS_CourseSyllabi/static/css/main.f887e6cc.chunk.css.map",
-    "static/js/2.daaef724.chunk.js.LICENSE.txt": "/HunterCS_CourseSyllabi/static/js/2.daaef724.chunk.js.LICENSE.txt",
+    "static/css/main.ee8d8dea.chunk.css.map": "/HunterCS_CourseSyllabi/static/css/main.ee8d8dea.chunk.css.map",
+    "static/js/2.329ea3d8.chunk.js.LICENSE.txt": "/HunterCS_CourseSyllabi/static/js/2.329ea3d8.chunk.js.LICENSE.txt",
     "static/media/logo.f13bc8f6.png": "/HunterCS_CourseSyllabi/static/media/logo.f13bc8f6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b61743ec.js",
-    "static/js/2.daaef724.chunk.js",
-    "static/css/main.f887e6cc.chunk.css",
-    "static/js/main.7f3b1a89.chunk.js"
+    "static/js/runtime-main.3abe02aa.js",
+    "static/js/2.329ea3d8.chunk.js",
+    "static/css/main.ee8d8dea.chunk.css",
+    "static/js/main.927c1329.chunk.js"
   ]
 }
