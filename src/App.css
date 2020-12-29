@@ -1,0 +1,67 @@
+:root{
+  --background-color: #eeeeee;
+}
+
+html[data-theme="dark"]{
+  --background-color: #313131;
+}
+
+.App{
+  width: 100vw;
+  height: 100%;
+  background: var(--background-color);
+  padding: 2rem;
+  position: relative;
+ 
+}
+
+.gridTest{
+  display: block;
+ 
+}
+
+.courses{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coursesNew{
+  /* position: relative; */
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.16));
+}
+
+@media screen and (min-width: 1600px){
+  .App{
+    padding: 4rem;
+  }
+
+  .gridTest{
+    display: grid;
+    grid-template-columns: 10rem auto;
+    grid-template-rows: 10rem 100%;
+  }
+
+  #course:last-child{
+    margin-bottom: 55rem;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .coursesNew{
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+
+  }
+  
+}

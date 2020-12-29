@@ -1,0 +1,186 @@
+:root{
+    --heading-color: #313131;
+    --github-color: #313131;
+}
+  
+html[data-theme="dark"]{
+    --heading-color: #eeeeee;
+    --github-color: #eeeeee;
+}
+
+.homeContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 500ms;
+    
+    
+    /* border: 2px solid red; */
+}
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.heading{
+    color: var(--heading-color);
+    font-size: 1.618rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 30px;
+    background: #C25790;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
+
+.description{
+    color: #ADADAD;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    margin-top: 0.2rem;
+    line-height: 1.618rem;
+}
+
+.details{
+    width: 100%;
+    color: #ADADAD;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    margin-top: 0.2rem;
+    line-height: 1.618rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.exploreButton{
+    width: 12rem;
+    height: 3rem;
+    background: linear-gradient(to right,#FEB041,#C25790);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #EEE;
+    font-size: 1.618rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.25s ease-out;
+}
+
+.githubButton{
+    width: 12rem;
+    height: 3rem;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right,#FEB041,#C25790);
+    outline: none;
+    cursor: pointer;
+    color: var(--github-color);
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.25s ease-out;
+    background: transparent;
+}
+
+.githubButton:hover{
+    background: #feaf41a8;
+    box-shadow: #0000006b 0 2px 8px;
+    transform: translateY(-0.2rem);
+}
+
+.exploreButton:hover{
+    background: linear-gradient(to right,#FEB041,#C25790);
+    box-shadow: #0000006b 0 2px 8px;
+    transform: translateY(-0.2rem);
+}
+
+@media screen and (min-width: 900px){
+
+    .homeContainer{
+        height: fit-content;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-left: 4rem;
+    }
+
+    .descriptionContainer{
+        width: 100%;
+        /* margin-left: 14rem; */
+        
+    }
+
+    .buttons{
+        flex-direction: row;
+        align-self: flex-start;
+    }
+
+    .heading{
+        font-size: 2.618rem;
+    }
+
+    .description{
+        width: 60%;
+        font-size: 1.618rem;
+        margin-top: 1rem;
+        line-height: 2.618rem;
+    }
+
+    .details{
+        width: 45%;
+        font-size: 1.618rem;
+        margin-top: 0.4rem;
+        line-height: 2.618rem;
+    }
+
+    .heading::after{
+        margin-left: 1rem;
+        margin-top: 0.4rem;
+        height: 40px;
+        width: 4px;
+    }
+
+    .githubButton{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.618rem;
+        margin-left: 4rem;
+    }
+
+    .exploreButton{
+        width: 14rem;
+        height: 4rem;
+        font-size: 2.618rem;
+    }
+}

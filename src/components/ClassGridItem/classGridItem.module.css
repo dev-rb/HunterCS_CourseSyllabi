@@ -1,0 +1,80 @@
+:root{
+    --gridItem-color: #FFF;
+    --pdf-color: #313131;
+}
+
+html[data-theme="dark"]{
+    --gridItem-color: #313131;
+    --pdf-color: #FFF;
+}
+
+.container{
+    width: 8rem;
+    height: 8rem;
+    background: var(--gridItem-color);
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+    padding: 0.5rem;
+    overflow: auto;
+    cursor: pointer;
+    
+}
+
+.infoContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoContainer h1{
+    font-size: 1.618rem;
+    color: #E15835;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    margin-top: 0rem;
+}
+
+.infoContainer p{
+    width: 80%;
+    font-size: 1rem;
+    color: #ADADAD;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    margin-top: -0.8rem;
+}
+
+.syllabiList{
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+}
+
+.syllabiList a{
+    font-size: 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+    color: var(--pdf-color);
+}
+
+.syllabiList a:hover{
+    background: #c257905e;
+}
+
+.expand{
+    position: absolute;
+    width: 20rem !important;
+    height: 20rem !important;
+    transform: translate(-25%, -25%);
+    z-index: 10;
+}
+
+@media screen and (min-width: 900px){
+
+    .container{
+        width: 12rem;
+        height: 12rem;
+    }
+
+}
