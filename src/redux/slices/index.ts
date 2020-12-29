@@ -26,7 +26,7 @@ const initState: CoursesState = {
 }
 
 export const getCourses = createAsyncThunk('courses/getCourses', async (endpoint: string) => {
-    const res = await fetch(endpoint, { mode: 'cors' });
+    const res = await fetch(endpoint);
     if (!res.ok) {
         throw Error(res.statusText);
     }
