@@ -30,9 +30,9 @@ html[data-theme="dark"]{
     row-gap: 1rem;
     place-items: center center;
     padding-bottom: 1rem;
-    
     overflow-y: auto;
     overflow-x: hidden;
+    transition-delay: 1s;
 }
 
 @media screen and (min-width: 900px){

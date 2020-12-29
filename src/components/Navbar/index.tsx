@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
 
             <div className={styles.menuButton} onClick={() => setOpen(true)}>
-                <MdMenu size={'2.5rem'} color='#313131' />
+                <MdMenu size={'2.5rem'} />
             </div>
             {open ? <div className={styles.menuOverlay} onClick={() => setOpen(false)} /> : null}
             <div className={`${styles.linksContainer}${open ? ' + ' + styles.active : ''}`}>
@@ -34,12 +34,13 @@ const Navbar = () => {
                 <a> About </a>
                 <a> Explore </a>
                 <a> Contribute </a>
+                <div className={styles.switchContainer}>
+                    <input id="themeSwitch" type="checkbox" />
+                    <label htmlFor="themeSwitch" className={styles.round} onClick={themeToggle} />
+                </div>
             </div>
 
-            <div className={styles.switchContainer}>
-                <input id="themeSwitch" type="checkbox" />
-                <label htmlFor="themeSwitch" className={styles.round} onClick={themeToggle} />
-            </div>
+
         </div>
     );
 }

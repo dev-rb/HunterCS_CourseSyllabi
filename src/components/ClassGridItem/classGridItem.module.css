@@ -9,6 +9,7 @@ html[data-theme="dark"]{
 }
 
 .container{
+    opacity: 0;
     width: 8rem;
     height: 8rem;
     background: var(--gridItem-color);
@@ -16,7 +17,18 @@ html[data-theme="dark"]{
     padding: 0.5rem;
     overflow: auto;
     cursor: pointer;
-    
+    animation: fadeIn 1s forwards;
+    animation-delay: calc(var(--delay) * 100ms);
+   
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .infoContainer{
@@ -64,8 +76,8 @@ html[data-theme="dark"]{
 
 .expand{
     position: absolute;
-    width: 20rem !important;
-    height: 20rem !important;
+    width: 10rem !important;
+    height: 15rem !important;
     transform: translate(-25%, -25%);
     z-index: 10;
 }
@@ -75,6 +87,14 @@ html[data-theme="dark"]{
     .container{
         width: 12rem;
         height: 12rem;
+    }
+
+    .expand{
+        position: absolute;
+        width: 20rem !important;
+        height: 20rem !important;
+        transform: translate(-25%, -25%);
+        z-index: 10;
     }
 
 }

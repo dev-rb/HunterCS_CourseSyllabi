@@ -14,8 +14,8 @@ const ClassGrid = () => {
         <div className={styles.container}>
 
             <div className={styles.gridContainer}>
-                {course.classes.map((item) =>
-                    <ClassGridItem key={item.description} id={item.id} description={item.description} syllabi={item.syllabi} />
+                {course && course.classes.map((item, index) =>
+                    <ClassGridItem key={item.description} index={index} id={item.id} description={item.description} syllabi={item.syllabi} />
                 )}
             </div>
         </div>
