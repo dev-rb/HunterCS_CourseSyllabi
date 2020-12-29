@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27faac15.chunk.css",
+    "main.js": "/static/js/main.bd13efce.chunk.js",
+    "main.js.map": "/static/js/main.bd13efce.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3df566d0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3df566d0.js.map",
+    "static/js/2.c79ae388.chunk.js": "/static/js/2.c79ae388.chunk.js",
+    "static/js/2.c79ae388.chunk.js.map": "/static/js/2.c79ae388.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.27faac15.chunk.css.map": "/static/css/main.27faac15.chunk.css.map",
+    "static/js/2.c79ae388.chunk.js.LICENSE.txt": "/static/js/2.c79ae388.chunk.js.LICENSE.txt",
+    "static/media/cscn-logo-final.400d0992.svg": "/static/media/cscn-logo-final.400d0992.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3df566d0.js",
+    "static/js/2.c79ae388.chunk.js",
+    "static/css/main.27faac15.chunk.css",
+    "static/js/main.bd13efce.chunk.js"
+  ]
+}
