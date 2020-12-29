@@ -1,6 +1,5 @@
 {
   "name": "hunter-cs-syllabi",
-  "homepage": "http://dev-rb.github.io/HunterCS_CourseSyllabi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
