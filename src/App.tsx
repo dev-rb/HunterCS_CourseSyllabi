@@ -13,7 +13,7 @@ function App() {
   const dispatch = useDispatch();
 
   React.useEffect(() => {
-    dispatch(getCourses('http://localhost:3001/classes'))
+    dispatch(getCourses('https://hunter-cs-syllabi.herokuapp.com/classes'))
   }, [dispatch])
 
   return (
