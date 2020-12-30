@@ -19,7 +19,7 @@ html[data-theme="dark"]{
     cursor: pointer;
     animation: fadeIn 1s forwards;
     animation-delay: calc(var(--delay) * 100ms);
-   
+    border-radius: 4px;
 }
 
 @keyframes fadeIn{
@@ -57,7 +57,7 @@ html[data-theme="dark"]{
 
 .syllabiList{
     width: 100%;
-    height: fit-content;
+    height: 100%;
     display: inline-block;
 }
 
@@ -68,6 +68,7 @@ html[data-theme="dark"]{
     word-wrap: break-word;
     cursor: pointer;
     color: var(--pdf-color);
+    /* margin-bottom: 2.5rem; */
 }
 
 .syllabiList a:hover{
@@ -75,10 +76,12 @@ html[data-theme="dark"]{
 }
 
 .expand{
-    position: absolute;
-    width: 10rem !important;
-    height: 15rem !important;
-    transform: translate(-25%, -25%);
+    
+    width: 100% !important;
+    height: 100% !important;
+    /* transform: translate(-25%, -25%); */
+    grid-column: auto / span 2;
+    grid-row: auto / span 20;
     z-index: 10;
 }
 
@@ -87,6 +90,13 @@ html[data-theme="dark"]{
     .container{
         width: 12rem;
         height: 12rem;
+    }
+
+    .container:hover{
+        transform: scale(1.2);
+        box-shadow: #0000006b 0 2px 8px;
+        border-radius: 4px;
+        z-index: 1;
     }
 
     .expand{

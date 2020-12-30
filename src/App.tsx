@@ -24,7 +24,7 @@ function App() {
           <Home />
         </div>
 
-        <div className="coursesNew">
+        <div id="coursesNew">
           <CourseNavigation />
           <ClassGrid />
         </div>

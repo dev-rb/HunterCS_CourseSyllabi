@@ -28,11 +28,14 @@ html[data-theme="dark"]{
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(8rem, 1fr));
     row-gap: 1rem;
+    column-gap: 0.4rem;
+    
     place-items: center center;
-    padding-bottom: 1rem;
+    
     overflow-y: auto;
     overflow-x: hidden;
     transition-delay: 1s;
+    
 }
 
 @media screen and (min-width: 900px){
@@ -61,7 +64,7 @@ html[data-theme="dark"]{
         height: 100%;
         grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(12rem, 1fr));
-        
+        padding: 2rem;
 
     }
 }
